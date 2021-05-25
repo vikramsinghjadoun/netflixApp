@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #999;
+}
+
+/* .img_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_div img {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  background-color: #ebcea8f3;
+} */
+
+/* .background {
+  background-color: rgb(231, 168, 73);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerBox {
+  background-color: #f5e4cff3;
+  min-height: 10%;
+  width: 40%;
+  border-radius: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 1px 3px 5px #333;
+  text-shadow: 2px 0px 5px #1d1b1b;
+}
+.text {
+  margin-top: 10px;
+} */
+
+.heading {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.cards {
+  width: 100%;
+  height: auto;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card {
+  margin: 6%;
+  margin-left: 11%;
+  box-shadow: 2px 4px 8px #333;
+  border-radius: 8px;
+  background-color: white;
+  width: 12rem;
+  height: 255px;
+  font-family: sans-serif;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  float: left;
+}
+.card_img {
+  width: 100%;
+  height: 170px;
+}
+.card_info {
+  padding-left: 7px;
+  text-transform: capitalize;
+  background-color: white;
+}
+.card_category {
+  font-size: 11px;
+  font-weight: normal;
+  color: rgb(77, 74, 74);
+  text-transform: uppercase;
+  background-color: white;
+}
+.card_title {
+  color: rgb(63, 61, 61);
+  font-size: 18px;
+  margin-top: 3px;
+  background-color: white;
+}
+.button {
+  border: 1px solid #999;
+  background-color: white;
+  padding: 4px;
+  color: #555;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+    height: 270px;
+  }
+  .card_img {
+    height: 180px;
+  }
+}
