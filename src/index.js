@@ -9,6 +9,7 @@
 //*************NETFLIX APP LIST***************
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ComA from './ComA';
 import App from './App';
 import './index.css';
 
@@ -25,7 +26,8 @@ import './index.css';
 
 ReactDOM.render(
   <>
-    <App />
+    {/* <App /> */}
+    <ComA />
   </>,
   document.getElementById('root')
 );
